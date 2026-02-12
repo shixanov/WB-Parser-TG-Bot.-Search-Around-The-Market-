@@ -23,6 +23,7 @@
 ## how to launch
 
 1. **скопируйте репозиторий:**
+**Клонируйте репозиторий:**
    ```bash
-git clone [https://github.com/shixanov/wbparserTGBot.git](https://github.com/shixanov/wbparserTGBot.git)
-   cd wbparserTGBot
+   git clone [https://github.com/shixanov/WB-Parser-TG-Bot.-Search-Around-The-Market-.git](https://github.com/shixanov/WB-Parser-TG-Bot.-Search-Around-The-Market-.git)
+   cd WB-Parser-TG-Bot.-Search-Around-The-Market-
