@@ -20,6 +20,10 @@
 
 **почему эт особенность?:** пока чт (`headless=False`), тк при значение "true", идет banip, тк вб просит капчу, пробуйте пару раз пройти капчу сами и выставлять значение true. p.s в скором времени пофикшу.
 
+## video showing how it works clearly
+RuTube: https://rutube.ru/video/private/49bb9e2a6be9bbcb0aa01c76bf4284ba/?p=cyuq-6vDmDcdHKIQTsnOCg
+YouTube: https://youtu.be/jb8EV42bwA8
+
 ## how to launch
 
 **Клонируйте репозиторий:**
