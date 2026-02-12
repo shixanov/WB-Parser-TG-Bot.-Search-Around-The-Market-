@@ -18,12 +18,25 @@
 на данный момент в файле `services/marketplaces.py` установлено значение:
 `headless=False`
 
-**почему эт особенность?:** пока чт (`headless=True`), тк при значение "false", идет banip, тк вб просит капчу, пробуйте пару раз пройти капчу сами и выставлять значение true. p.s в скором времени пофикшу.
+**почему эт особенность?:** пока чт (`headless=False`), тк при значение "true", идет banip, тк вб просит капчу, пробуйте пару раз пройти капчу сами и выставлять значение true. p.s в скором времени пофикшу.
 
 ## how to launch
 
-1. **скопируйте репозиторий:**
 **Клонируйте репозиторий:**
    ```bash
-   git clone [https://github.com/shixanov/WB-Parser-TG-Bot.-Search-Around-The-Market-.git](https://github.com/shixanov/WB-Parser-TG-Bot.-Search-Around-The-Market-.git)
-   cd WB-Parser-TG-Bot.-Search-Around-The-Market-
+   git clone [https://github.com/shixanov/wbparserTGBot.git](https://github.com/shixanov/wbparserTGBot.git)
+   cd wbparserTGBot
+ ```
+**установите зависимости:**
+ ```bash
+pip install -r requirements.txt
+playwright install chromium
+ ```
+настройте переменные окружения:
+ ```
+Создайте файл .env на основе .env.example и вставьте ваш BOT_TOKEN.
+ ```
+
+запустите бота
+ ```
+python main.py
